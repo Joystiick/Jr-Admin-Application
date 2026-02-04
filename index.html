@@ -341,17 +341,17 @@
 
     const chip = document.getElementById('status-chip');
     if (total >= 52) {
-      chip.innerText = "PROMOTE TO ADMIN";
+      chip.innerText = "PROMOTE TO JR ADMIN";
       chip.style.color = "#2ed573";
       chip.style.background = "rgba(46, 213, 115, 0.15)";
       chip.style.boxShadow = "0 0 20px rgba(46, 213, 115, 0.3)";
     } else if (total >= 36) {
-      chip.innerText = "TRIAL JR. ADMIN";
+      chip.innerText = "CONSIDER";
       chip.style.color = "#ffa502";
       chip.style.background = "rgba(255, 165, 2, 0.15)";
       chip.style.boxShadow = "none";
     } else if (total > 0) {
-      chip.innerText = "KEEP AS SENIOR MOD";
+      chip.innerText = "KEEP AS MOD";
       chip.style.color = "#ff4757";
       chip.style.background = "rgba(255, 71, 87, 0.15)";
       chip.style.boxShadow = "none";
